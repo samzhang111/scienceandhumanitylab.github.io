@@ -1,11 +1,21 @@
 ---
 permalink: /
 title: "The Science and Humanity Lab"
-author_profile: true
-redirect_from: 
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
+
+> **humanity** *(noun)*
+>
+> **1** : compassionate, sympathetic, or generous behavior or disposition : the quality or state of being humane
+>
+> **2** : the quality or state of being human
+>
+> **3** : the totality of human beings : the human race : humankind
+>
+> <cite>— Merriam-Webster</cite>
 
 Welcome to the Science and Humanity Lab at the [Vermont Complex Systems Institute](https://vermontcomplexsystems.org/).
 

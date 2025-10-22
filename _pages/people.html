@@ -1,0 +1,42 @@
+---
+layout: archive
+title: "People"
+permalink: /people/
+author_profile: false
+---
+
+<p>Meet the members of the Science and Humanity Lab.</p>
+
+{% include base_path %}
+
+<h2>Principal Investigator</h2>
+<hr />
+{% for person in site.people %}
+  {% if person.role == "pi" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Graduate Students</h2>
+<hr />
+{% for person in site.people %}
+  {% if person.role == "grad" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Undergraduate Students</h2>
+<hr />
+{% for person in site.people %}
+  {% if person.role == "undergrad" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Alumni</h2>
+<hr />
+{% for person in site.people %}
+  {% if person.role == "alumni" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
