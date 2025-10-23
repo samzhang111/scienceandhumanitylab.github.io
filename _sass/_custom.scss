@@ -9,3 +9,44 @@
   font-weight: 300;
   letter-spacing: 0.01em;
 }
+
+/* Falling leaves animation */
+.falling-leaves {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  pointer-events: none;
+  z-index: 1;
+  overflow: visible;
+}
+
+.falling-leaves-left {
+  left: 0;
+}
+
+.falling-leaves-right {
+  right: 0;
+}
+
+.leaf-scene {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  transform-style: preserve-3d;
+
+  div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url(/images/maple-leaf.svg) no-repeat;
+    background-size: 100%;
+    transform-style: preserve-3d;
+    backface-visibility: visible;
+    opacity: 0.1;
+  }
+}
