@@ -102,6 +102,28 @@ $(document).ready(function () {
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
 
+  // Enable the leaves toggle
+  var leavesEnabled = localStorage.getItem('leaves-enabled') !== 'false';
+
+  // Set initial state
+  if (!leavesEnabled) {
+    $('.falling-leaves').hide();
+    $('#leaves-icon').css('filter', 'grayscale(100%)');
+  }
+
+  $('#leaves-toggle').on('click', function() {
+    leavesEnabled = !leavesEnabled;
+    localStorage.setItem('leaves-enabled', leavesEnabled);
+
+    if (leavesEnabled) {
+      $('.falling-leaves').fadeIn();
+      $('#leaves-icon').css('filter', 'none');
+    } else {
+      $('.falling-leaves').fadeOut();
+      $('#leaves-icon').css('filter', 'grayscale(100%)');
+    }
+  });
+
   // Enable the sticky footer
   var bumpIt = function () {
     $("body").css("margin-bottom", $(".page__footer").outerHeight(true));

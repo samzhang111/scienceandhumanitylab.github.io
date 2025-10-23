@@ -12,7 +12,7 @@ var LeafScene = function(el) {
       wind: {
         magnitude: 0,
         maxSpeed: 2,
-        duration: 1000,
+        duration: 8000,
         start: 0,
         speed: 0
       },
@@ -33,10 +33,6 @@ var LeafScene = function(el) {
       if (leaf.x > this.width) {
         leaf.x = this.width + 10;
         leaf.y = Math.random()*this.height/2;
-      }
-      // at the start, the leaf can be anywhere
-      if (this.timer == 0) {
-        leaf.y = Math.random()*this.height;
       }
 
       // Choose axis of rotation.

@@ -10,6 +10,28 @@
   letter-spacing: 0.01em;
 }
 
+/* Leaves toggle icon */
+#leaves-toggle {
+  cursor: pointer;
+  margin-left: 0.5em;
+}
+
+#leaves-toggle a {
+  cursor: pointer;
+}
+
+#leaves-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px !important;
+  height: 20px !important;
+  max-width: 20px !important;
+  max-height: 20px !important;
+  min-width: 20px !important;
+  min-height: 20px !important;
+  transition: filter 0.3s ease;
+}
+
 /* Falling leaves animation */
 .falling-leaves {
   position: fixed;
@@ -47,6 +69,6 @@
     background-size: 100%;
     transform-style: preserve-3d;
     backface-visibility: visible;
-    opacity: 0.1;
+    opacity: 0.3;
   }
 }
