@@ -7,15 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-> **humanity** *(noun)*
->
-> **1** : compassionate, sympathetic, or generous behavior or disposition : the quality or state of being humane
->
-> **2** : the quality or state of being human
->
-> **3** : the totality of human beings : the human race : humankind
->
-> <cite>— Merriam-Webster</cite>
+<div class="humanity-quote">
+  <blockquote>
+    <div class="humanity-header">
+      <strong>humanity</strong> <em>(noun)</em>
+    </div>
+    <div class="humanity-content">
+      <p><strong>1</strong> : compassionate, sympathetic, or generous behavior or disposition : the quality or state of being humane</p>
+      <p><strong>2</strong> : the quality or state of being human</p>
+      <p><strong>3</strong> : the totality of human beings : the human race : humankind</p>
+      <cite>Merriam-Webster</cite>
+    </div>
+  </blockquote>
+</div>
 
 Welcome to the Science and Humanity Lab at the [Vermont Complex Systems Institute](https://vermontcomplexsystems.org/).
 

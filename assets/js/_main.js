@@ -161,4 +161,18 @@ $(document).ready(function () {
     preventDefault: false,
   });
 
+  // Collapsible humanity quote
+  $('.humanity-header').on('click', function() {
+    $('.humanity-content').slideToggle();
+  });
+
+  // Collapse quote on first scroll only
+  var hasScrolledOnce = false;
+  $(window).on('scroll', function() {
+    if (!hasScrolledOnce && $(window).scrollTop() > 50) {
+      hasScrolledOnce = true;
+      $('.humanity-content').slideUp();
+    }
+  });
+
 });
