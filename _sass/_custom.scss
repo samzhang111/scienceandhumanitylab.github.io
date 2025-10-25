@@ -2,12 +2,35 @@
    CUSTOM STYLES FOR SCIENCE AND HUMANITY LAB
    ========================================================================== */
 
-/* Custom styling for page title with TextWebThin font */
+/* Custom styling for main page title with TextWebThin font and gradient */
 .page__title {
-  font-family: 'TextWebThin', sans-serif;
   font-size: 2.5em;
+}
+
+/* Apply special styling only to the home page title */
+.page__title--home {
+  font-family: 'TextWebThin', sans-serif;
   font-weight: 300;
   letter-spacing: 0.01em;
+  background: linear-gradient(to right, var(--title-gradient-start), var(--title-gradient-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  padding-bottom: 0.2em;
+  overflow: visible;
+}
+
+/* Masthead site title link styling */
+.masthead__menu-item--lg a {
+  font-family: 'TextWebThin', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+//  background: linear-gradient(to right, var(--title-gradient-start), var(--title-gradient-end));
+//  -webkit-background-clip: text;
+//  -webkit-text-fill-color: transparent;
+//  background-clip: text;
+//  color: transparent;
 }
 
 /* Collapsible humanity quote */

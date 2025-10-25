@@ -21,21 +21,15 @@ redirect_from:
   </blockquote>
 </div>
 
-Welcome to the Science and Humanity Lab at the [Vermont Complex Systems Institute](https://vermontcomplexsystems.org/).
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat semper tellus, id bibendum orci scelerisque ac. Duis at felis lobortis, condimentum nisi non, dictum tellus. Ut vel enim sit amet ipsum fermentum rhoncus. Nam vehicula urna ligula, vel tristique eros imperdiet ac. Donec odio quam, imperdiet et porttitor non, viverra sed turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla at metus convallis massa suscipit auctor id vitae nibh. Cras sed maximus elit, at aliquam nisi. Sed eget nisi rutrum, volutpat enim sed, malesuada sem. Vestibulum sit amet efficitur orci, et molestie lacus. Donec euismod fermentum dui, ut facilisis tortor dictum eu.
+Welcome to the Science and Humanity Lab at the [Vermont Complex Systems Institute](https://vermontcomplexsystems.org/)! Our group conducts research on the human side of science and the broader social impacts of data and networks. We develop and apply methods drawing on mathematics, network science, and data science to examine how institutions shape scientific careers, how biases and hierarchies propagate through systems, and how quantitative approaches can inform humanitarian questions of rights, justice, and policy. 
 
 The human side of science
 ======
 
-Maecenas et feugiat nibh. Mauris sagittis lectus et elit aliquet consequat. Sed bibendum ullamcorper nisl, feugiat sagittis ante vehicula in. Phasellus vitae aliquet odio. Nulla eget maximus quam, vitae sollicitudin nunc. Suspendisse consectetur nunc in odio molestie, at hendrerit diam pellentesque. Curabitur eget semper risus, et imperdiet sem. Proin sed arcu sed sem commodo mollis vitae non metus. Aenean posuere fringilla velit, vel consectetur libero elementum id. Morbi vel orci arcu. Aenean eleifend ligula sem, et facilisis ipsum suscipit volutpat.
+Science is a human activity. To understand the scientific ecosystem, we have to understand the human beings --- you and me included --- who conduct experiments, write papers, apply for funding, run departments, and teach classes. Our lab looks for the fingerprint of our humanity in our social structures and collective knowledge, such as the importance of [randomness in scientific careers](https://arxiv.org/abs/2309.04414) (under review), the role of [labor in driving productivity](https://www.science.org/doi/10.1126/sciadv.abq7056) (_Science Advances_), [how reputation shapes faculty hiring](https://www.nature.com/articles/s41586-022-05222-x#Bib1) (_Nature_), and how [even experts can be misled by common statistical graphics](https://www.pnas.org/doi/full/10.1073/pnas.1702121114) (_PNAS_).
 
-Applying science toward human rights
+
+Quantitative human rights, justice, and policy
 ======
 
-Proin quam mi, lobortis mollis sagittis in, luctus ut lacus. Aenean scelerisque tortor imperdiet, molestie ligula in, luctus ligula. Duis vitae sodales augue. Etiam auctor ullamcorper nibh vitae consectetur. Proin pretium convallis tortor, ac facilisis dolor maximus faucibus. Praesent id arcu congue, imperdiet lectus eu, rutrum nulla. Duis quis mauris felis. Aliquam massa massa, mattis at tincidunt vel, tristique quis eros. Fusce vel arcu volutpat, pretium lectus sit amet, rhoncus dui. Nullam porttitor iaculis ante, in pretium purus vulputate in. Praesent aliquam viverra ante, eget consectetur justo cursus ac. Sed molestie ultrices leo, sed imperdiet turpis gravida at.
-
-News:
-- Vestibulum lacus turpis, consequat at gravida sit amet, pretium in lacus
-- Sed in blandit metus, sit amet commodo eros!
-- Quisque consequat vulputate ligula, ac eleifend purus vulputate eget
+Our lab applies our mathematical and computational skills to make contributions to humanitarian questions, broadly, which includes human rights, criminal justice, and environmental policy. We have worked on [forensics human rights estimation](https://hrdag.org/tech-notes/implementing-lcmcr-in-stan.html), assessing the impact of [indignenous land rights on deforestation](https://academic.oup.com/pnasnexus/article/2/1/pgac287/7005261?login=false), and are co-organizing a working group at the Santa Fe Institute on the [historical evolution of human rights](https://www.santafe.edu/events/understanding-the-historical-forces-driving-expansions-of-human-rights) in December.
