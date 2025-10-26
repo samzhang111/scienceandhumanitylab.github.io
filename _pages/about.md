@@ -21,12 +21,12 @@ redirect_from:
   </blockquote>
 </div>
 
-Welcome to the Science and Humanity Lab at the [Vermont Complex Systems Institute](https://vermontcomplexsystems.org/)! Our group conducts research on the human side of science and the broader social impacts of data and networks. We develop and apply methods drawing on mathematics, network science, and data science to examine how institutions shape scientific careers, how biases and hierarchies propagate through systems, and how quantitative approaches can inform humanitarian questions of rights, justice, and policy. 
+Welcome to the Science and Humanity Lab at the [Vermont Complex Systems Institute](https://vermontcomplexsystems.org/), where we model the human side of science. We mean this in both senses of the word: our group builds models to understand science as a complex social system, and we also attempt to model (i.e., demonstrate by example) how scientists can engage fiercely and objectively on humanitarian questions that affect us all.
 
 The human side of science
 ======
 
-Science is a human activity. To understand the scientific ecosystem, we have to understand the human beings --- you and me included --- who conduct experiments, write papers, apply for funding, run departments, and teach classes. Our lab looks for the fingerprint of our humanity in our social structures and collective knowledge, such as the importance of [randomness in scientific careers](https://arxiv.org/abs/2309.04414) (under review), the role of [labor in driving productivity](https://www.science.org/doi/10.1126/sciadv.abq7056) (_Science Advances_), [how reputation shapes faculty hiring](https://www.nature.com/articles/s41586-022-05222-x#Bib1) (_Nature_), and how [even experts can be misled by common statistical graphics](https://www.pnas.org/doi/full/10.1073/pnas.1702121114) (_PNAS_).
+Science is a human activity. To understand the scientific ecosystem, we have to understand the human beings --- you and me included --- who conduct experiments, write papers, apply for funding, run departments, and teach classes. Our lab examines the fingerprint of our humanity in our social structures and collective knowledge, such as the importance of [randomness in scientific careers](https://arxiv.org/abs/2309.04414) (under review), the role of [labor in driving productivity](https://www.science.org/doi/10.1126/sciadv.abq7056) (_Science Advances_), [how reputation shapes faculty hiring](https://www.nature.com/articles/s41586-022-05222-x#Bib1) (_Nature_), and how [even experts can be misled by common statistical graphics](https://www.pnas.org/doi/full/10.1073/pnas.1702121114) (_PNAS_).
 
 
 Quantitative human rights, justice, and policy
