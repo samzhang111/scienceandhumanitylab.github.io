@@ -7,18 +7,38 @@
   font-size: 2.5em;
 }
 
+/* Gradient shimmer animation */
+@keyframes gradient-shimmer {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 /* Apply special styling only to the home page title */
 .page__title--home {
   font-family: 'TextWebThin', sans-serif;
   font-weight: 300;
   letter-spacing: 0.01em;
-  background: linear-gradient(to right, var(--title-gradient-start), var(--title-gradient-end));
+  background: linear-gradient(90deg,
+    var(--title-gradient-end),
+    var(--title-gradient-start) 25%,
+    var(--title-gradient-start) 50%,
+    var(--title-gradient-start) 75%,
+    var(--title-gradient-end));
+  background-size: 300% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
   padding-bottom: 0.2em;
   overflow: visible;
+  animation: gradient-shimmer 40s ease-in-out infinite;
 }
 
 /* Masthead site title link styling */
