@@ -3,6 +3,9 @@
    ========================================================================== */
 
 var LeafScene = function(el) {
+    this.timeScale = 0.75;
+    this.lastTime = null;
+    this.frameStep = 1;
     this.viewport = el;
     this.world = document.createElement('div');
     this.leaves = [];
@@ -59,26 +62,22 @@ var LeafScene = function(el) {
     }
 
     this._updateLeaf = function(leaf) {
-      var leafWindSpeed = this.options.wind.speed(this.timer - this.options.wind.start, leaf.y);
+        var leafWindSpeed = this.options.wind.speed(this.timer - this.options.wind.start, leaf.y);
 
-      var xSpeed = leafWindSpeed + leaf.xSpeedVariation;
-      leaf.x -= xSpeed;
-      leaf.y += leaf.ySpeed;
-      leaf.rotation.value += leaf.rotation.speed;
+        var xSpeed = leafWindSpeed + leaf.xSpeedVariation;
+        leaf.x -= xSpeed * this.frameStep;            // <— scaled
+        leaf.y += leaf.ySpeed * this.frameStep;       // <— scaled
+        leaf.rotation.value += leaf.rotation.speed * this.frameStep; // <— scaled
 
-      var t = 'translateX( ' + leaf.x + 'px ) translateY( ' + leaf.y + 'px ) translateZ( ' + leaf.z + 'px )  rotate' + leaf.rotation.axis + '( ' + leaf.rotation.value + 'deg )';
-      if (leaf.rotation.axis !== 'X') {
-        t += ' rotateX(' + leaf.rotation.x + 'deg)';
-      }
-      leaf.el.style.webkitTransform = t;
-      leaf.el.style.MozTransform = t;
-      leaf.el.style.oTransform = t;
-      leaf.el.style.transform = t;
+        var t = 'translateX(' + leaf.x + 'px) translateY(' + leaf.y + 'px) translateZ(' + leaf.z + 'px) rotate' + leaf.rotation.axis + '(' + leaf.rotation.value + 'deg)';
+        if (leaf.rotation.axis !== 'X') t += ' rotateX(' + leaf.rotation.x + 'deg)';
+        leaf.el.style.transform = t;
+        leaf.el.style.webkitTransform = t;
+        leaf.el.style.MozTransform = t;
+        leaf.el.style.oTransform = t;
 
-      // reset if out of view
-      if (leaf.y > this.height + 10) {
-        this._resetLeaf(leaf);
-      }
+        if (leaf.y > this.height + 10) this._resetLeaf(leaf);
+
     }
 
     this._updateWind = function() {
@@ -148,16 +147,26 @@ var LeafScene = function(el) {
     };
   }
 
-  LeafScene.prototype.render = function() {
-    this._updateWind();
-    for (var i = 0; i < this.leaves.length; i++) {
-      this._updateLeaf(this.leaves[i]);
-    }
+    LeafScene.prototype.render = function(now) {
+      // ensure 'now' is defined
+      if (typeof now === 'undefined') now = performance.now();
 
-    this.timer++;
+      // time-based frame step (normalized to 60fps)
+      if (this.lastTime == null) this.lastTime = now;
+      var dt = (now - this.lastTime) / 16.6667; // 16.6667 ms ≈ 1 frame at 60 fps
+      this.frameStep = dt * this.timeScale;
 
-    requestAnimationFrame(this.render.bind(this));
-  }
+      this._updateWind();
+      for (var i = 0; i < this.leaves.length; i++) {
+        this._updateLeaf(this.leaves[i]);
+      }
+
+      this.timer += this.frameStep;
+      this.lastTime = now;
+
+      requestAnimationFrame(this.render.bind(this));
+    };
+
 
   // Initialize leaf scenes when DOM is ready
   document.addEventListener('DOMContentLoaded', function() {

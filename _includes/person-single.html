@@ -1,0 +1,6 @@
+<div class="person">
+  <h3>{{ include.person.title }}</h3>
+  <p><strong>{{ include.person.position }}</strong></p>
+  <p>Email: <a href="mailto:{{ include.person.email }}">{{ include.person.email }}</a>{% if include.person.website %} | Website: <a href="{{ include.person.website }}">{{ include.person.website }}</a>{% endif %}</p>
+  {{ include.person.content }}
+</div>

@@ -13,7 +13,7 @@ If you are interested in pursuing a PhD in our lab, please apply to the [Vermont
 
 ## Undergraduate Students
 
-We welcome undergraduate students from UVM and beyond to get involved in research. Please contact us to discuss available opportunities.
+We welcome undergraduate students from UVM to get involved in research. Please contact us to discuss available opportunities.
 
 ## Postdoctoral Researchers
 
