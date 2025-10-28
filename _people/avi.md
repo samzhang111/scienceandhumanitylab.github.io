@@ -8,5 +8,3 @@ position: 'PhD Student, Complex Systems and Data Science'
 institution: 'University of Vermont'
 email: 'aviral.chawla@uvm.edu'
 ---
-
-Avi is ...

@@ -1,6 +1,12 @@
-<div class="person">
-  <h3>{{ include.person.title }}</h3>
-  <p><strong>{{ include.person.position }}</strong></p>
-  <p>Email: <a href="mailto:{{ include.person.email }}">{{ include.person.email }}</a>{% if include.person.website %} | Website: <a href="{{ include.person.website }}">{{ include.person.website }}</a>{% endif %}</p>
+<div class="person" style="margin-bottom: 2em;">
+  {% if include.person.image %}
+  <img src="{{ include.person.image }}" alt="{{ include.person.title }}" style="max-width: 200px; float: left; margin-right: 20px;">
+  {% endif %}
+  <div>
+    <strong>{{ include.person.title }}</strong><br>
+    {{ include.person.position }}<br>
+    Email: <a href="mailto:{{ include.person.email }}">{{ include.person.email }}</a>{% if include.person.website %} | Website: <a href="{{ include.person.website }}">{{ include.person.website }}</a>{% endif %}{% if include.person.cv %} | <a href="{{ include.person.cv }}">CV</a>{% endif %}
+  </div>
   {{ include.person.content }}
+  <div style="clear: both;"></div>
 </div>

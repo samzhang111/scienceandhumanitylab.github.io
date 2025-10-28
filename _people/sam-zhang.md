@@ -7,8 +7,10 @@ excerpt: 'Principal Investigator and Assistant Professor'
 position: 'Assistant Professor, Mathematics and Statistics'
 institution: 'University of Vermont'
 email: 'sam.zhang@uvm.edu'
+image: '/images/sam-uvm.jpg'
+cv: 'https://drive.google.com/file/d/1OE7QoxoABqyt_taL8X0DXcrj5LStpAIp/view'
 ---
 
-Sam Zhang is an Assistant Professor in the Department of Mathematics and Statistics, and the director of the Science and Humanity Lab. 
+Sam Zhang is the director of the Science and Humanity Lab, an Assistant Professor in the Department of Mathematics and Statistics at the University of Vermont, and core faculty in the Vermont Complex Systems Institute. 
 With his collaborators, he develops and applies methods drawing on mathematics, network science, and data science to examine how institutions shape scientific careers, how biases and hierarchies propagate through systems, and how quantitative approaches can inform humanitarian questions of rights, justice, and policy.
-He received his PhD in Applied Mathematics at the University of Colorado, Boulder, during which he worked with the Human Rights Data Analysis Group and Microsoft Research NYC.
+He received his PhD in Applied Mathematics at the University of Colorado, Boulder.
