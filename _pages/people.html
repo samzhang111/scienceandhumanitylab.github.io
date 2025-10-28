@@ -15,7 +15,7 @@ author_profile: false
   {% endif %}
 {% endfor %}
 
-<h2>Graduate Students</h2>
+<h2>PhD Students</h2>
 <hr />
 {% for person in site.people %}
   {% if person.role == "grad" %}
@@ -23,18 +23,3 @@ author_profile: false
   {% endif %}
 {% endfor %}
 
-<h2>Undergraduate Students</h2>
-<hr />
-{% for person in site.people %}
-  {% if person.role == "undergrad" %}
-    {% include person-single.html person=person %}
-  {% endif %}
-{% endfor %}
-
-<h2>Alumni</h2>
-<hr />
-{% for person in site.people %}
-  {% if person.role == "alumni" %}
-    {% include person-single.html person=person %}
-  {% endif %}
-{% endfor %}
