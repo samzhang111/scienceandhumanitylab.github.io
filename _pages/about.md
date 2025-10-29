@@ -21,10 +21,10 @@ redirect_from:
   </blockquote>
 </div>
 
-Welcome to the Science and Humanity Lab at the [Vermont Complex Systems Institute](https://vermontcomplexsystems.org/), where we model the human side of science. We mean this in both senses of the word:
+Welcome to the Science and Humanity Lab at the [Vermont Complex Systems Institute](https://vermontcomplexsystems.org/), where we model the human side of science, in both senses of the word:
 
 1. we _build models_ to understand science as a complex social system, and
-2. we _model how scientists_ can engage fiercely and objectively on pressing humanitarian questions.
+2. we _model by example_ how scientists can engage fiercely and objectively on pressing humanitarian questions.
 
 **News**
 
