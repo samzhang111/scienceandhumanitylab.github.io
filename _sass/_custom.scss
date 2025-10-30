@@ -41,16 +41,17 @@
   animation: gradient-shimmer 40s ease-in-out infinite;
 }
 
-/* Masthead site title link styling */
-.masthead__menu-item--lg a {
-  font-family: 'TextWebThin', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.01em;
-//  background: linear-gradient(to right, var(--title-gradient-start), var(--title-gradient-end));
-//  -webkit-background-clip: text;
-//  -webkit-text-fill-color: transparent;
-//  background-clip: text;
-//  color: transparent;
+/* Masthead site logo styling */
+#site-logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 38px;
+  width: 38px;
+  transition: transform 0.3s ease;
+}
+
+#site-logo:hover {
+  transform: scale(1.1);
 }
 
 /* Collapsible humanity quote */
