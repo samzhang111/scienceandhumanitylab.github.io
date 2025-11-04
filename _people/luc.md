@@ -6,6 +6,7 @@ permalink: /people/luc
 excerpt: 'Complex Systems and Data Science'
 position: 'Complex Systems and Data Science'
 institution: 'University of Vermont'
+image: '/images/luc-bio.png'
 email: 'luc.cohen-wanis@uvm.edu'
 ---
 
