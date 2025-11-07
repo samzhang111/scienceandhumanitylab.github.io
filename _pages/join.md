@@ -5,17 +5,9 @@ permalink: /join/
 author_profile: false
 ---
 
-## Graduate Students
+## Postdocs and PhD students
 
-If you are interested in pursuing a PhD in our lab, please apply to the [Vermont Complex Systems program](https://vermontcomplexsystems.org/) and mention Sam Zhang in the application. Please reach out to discuss potential research projects as well.
-
-## Undergraduate Students
-
-We welcome undergraduate students from UVM to get involved in research. Please contact us to discuss available opportunities.
-
-## Postdoctoral Researchers
-
-We occasionally have openings for postdoctoral researchers. Please check back or contact us directly to inquire about current opportunities.
+Our lab is hiring! Reach out to Sam at sam.zhang@uvm.edu with a current CV and a brief statement about why you want to join the lab.
 
 ## Visiting Researchers
 
